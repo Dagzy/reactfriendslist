@@ -5,7 +5,7 @@ import {API_BASE} from './constants';
 class FriendList extends Component {
 	constructor(props){
 		super(props)
-		this.state = {friends[]};
+		this.state = {friends:[]};
 	}
 	componentWillReceiveProps(nextProps){
 		this.setState({friends: nextProps.props})
